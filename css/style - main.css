@@ -87,11 +87,16 @@ nav {
   font-size: 22px;
   border-bottom: #eee 2px solid;
 }
+.name {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+}
 h2 {
   color: #333;
   font-size: 3.45rem;
   font-weight: 400;
-  padding-top: 40vh;
 }
 h3 {
   color: #333;
@@ -216,7 +221,10 @@ h3 {
   -webkit-transform: rotate(-135deg);
 }
 .arrow{
-  padding-top: 33vh;
+  position: absolute;
+  left:50%;
+  bottom: 35px;
+  transform: translate(-50%);
 }
 .arrow a {
   padding:5px;
@@ -291,4 +299,5 @@ h3 {
   .contentdiv2 {
     display: none;
   }
+  
 }
