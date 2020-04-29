@@ -274,7 +274,7 @@ h3 {
   width: 50%;
   height: 90vh;
   margin: 10px;
-  border-radius: 30px;
+  border-radius: 40px;
 }
 .workcont .block1{
   position: absolute;
@@ -292,14 +292,14 @@ h3 {
   background-color: #41A317;
   height: 45vh;
   border: black 2px solid;
-  border-radius: 30px;
+  border-radius: 40px;
 }
 .contactcont{
   background-color: #FF7F50;
   height: calc(45vh - 10px);
   margin-top: 10px;
   border: black 2px solid;
-  border-radius: 30px;
+  border-radius: 40px;
 }
 @media screen and (max-width: 1175px){
   .contentdiv1 {
