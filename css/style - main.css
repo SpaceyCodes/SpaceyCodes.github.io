@@ -237,7 +237,10 @@ h3 {
   border-radius: 10px;
 }
 .arrow2{
-  padding-top: 10vh;
+  position: absolute;
+  left:50%;
+  bottom: 35px;
+  transform: translate(-50%);
 }
 .arrow2 a {
   padding:5px;
@@ -250,9 +253,7 @@ h3 {
   border-radius: 10px;
 }
 .banner2 {
-  vertical-align: center;
   position: relative;
-  text-align: center;
   height: 100vh;
   background-color: antiquewhite;
 }
@@ -262,35 +263,40 @@ h3 {
   margin: auto;
   display: flex; 
   flex-direction: row;
-  justify-content: space-around;
+  text-align: center;
+  justify-content: center;
   align-items: center;
 }
 .workcont {
-  background-image: linear-gradient(to bottom right, #ff758c, #ff7eb3 );
+  position: relative;
   border: black 2px solid;
-  width: 40%;
-  border-radius: 25px;
-  padding: 20px;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  width: 50%;
+  height: 90vh;
+  margin: 5px;
+  border-radius: 15px;
 }
-.aboutcont {
-  background-image: linear-gradient(to bottom right, #a1c4fd, #c2e9fb);
-  width: 40%;
+.workcont .block1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.block2 {
+  width: 50%;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.aboutcont{
+  height: 45vh;
   border: black 2px solid;
-  border-radius: 25px;
-  padding: 20px;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  border-radius: 15px;
 }
-.container1 .workcont h4 {
-  font-size: 30px;
-  border-bottom: #333 solid 2px;
-  color: #333;
-}
-.container1 .workcont h5 {
-  font-size: 15px;
-  color: #333;
+.contactcont{
+  height: calc(45vh - 5px);
+  margin-top: 5px;
+  border: black 2px solid;
+  border-radius: 15px;
 }
 @media screen and (max-width: 1175px){
   .contentdiv1 {
