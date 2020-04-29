@@ -108,7 +108,7 @@ h3 {
   position: relative;
   text-align: center;
   height: 90vh;
-  background-color: antiquewhite;
+  background-color: #faebd7;
 }
 .contentdiv1 {
   width: 341px;
@@ -255,7 +255,7 @@ h3 {
 .banner2 {
   position: relative;
   height: 100vh;
-  background-color: antiquewhite;
+  background-color: #faebd7;
 }
 .container1 {
   padding-top: 30px;
@@ -268,12 +268,13 @@ h3 {
   align-items: center;
 }
 .workcont {
+  background-color: #6960EC;
   position: relative;
   border: black 2px solid;
   width: 50%;
   height: 90vh;
-  margin: 5px;
-  border-radius: 15px;
+  margin: 10px;
+  border-radius: 30px;
 }
 .workcont .block1{
   position: absolute;
@@ -283,20 +284,22 @@ h3 {
 }
 .block2 {
   width: 50%;
-  margin: 5px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
 }
 .aboutcont{
+  background-color: #41A317;
   height: 45vh;
   border: black 2px solid;
-  border-radius: 15px;
+  border-radius: 30px;
 }
 .contactcont{
-  height: calc(45vh - 5px);
-  margin-top: 5px;
+  background-color: #FF7F50;
+  height: calc(45vh - 10px);
+  margin-top: 10px;
   border: black 2px solid;
-  border-radius: 15px;
+  border-radius: 30px;
 }
 @media screen and (max-width: 1175px){
   .contentdiv1 {
@@ -305,5 +308,32 @@ h3 {
   .contentdiv2 {
     display: none;
   }
-  
+  .container1 {
+    display: flex; 
+    flex-direction: column;
+  }
+  .workcont {
+    width: 80%;
+    height: 28vh;
+  }
+  .block2 {
+    width: 80%;
+  }
+  .aboutcont{
+    width: 100%;
+    height: 28vh;
+  }
+  .contactcont{
+    margin-top: 20px;
+    width: 100%;
+    height: 28vh;
+  }
+}
+@media screen and (max-width: 616px){
+  .hamburger {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+  }
 }
