@@ -239,7 +239,7 @@ h3 {
 .arrow2{
   position: absolute;
   left:50%;
-  bottom: 35px;
+  bottom: 25px;
   transform: translate(-50%);
 }
 .arrow2 a {
@@ -274,7 +274,7 @@ h3 {
   width: 50%;
   height: 90vh;
   margin: 10px;
-  border-radius: 40px;
+  border-radius: 30px;
 }
 .workcont .block1{
   position: absolute;
@@ -289,17 +289,41 @@ h3 {
   flex-direction: column;
 }
 .aboutcont{
+  position: relative;
   background-color: #41A317;
   height: 45vh;
   border: black 2px solid;
   border-radius: 40px;
 }
+.aboutcontent{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .contactcont{
+  position: relative;
   background-color: #FF7F50;
   height: calc(45vh - 10px);
   margin-top: 10px;
   border: black 2px solid;
   border-radius: 40px;
+}
+.contactcontent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container1 h4{
+  font-size: 30px;
+  color: #000;
+  border-bottom: #000 2px solid;
+}
+.container1 h5{
+  font-size: 20px;
+  color: #000;
+  border-bottom: #000 2px solid;
 }
 @media screen and (max-width: 1175px){
   .contentdiv1 {
