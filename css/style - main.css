@@ -338,19 +338,19 @@ h3 {
   }
   .workcont {
     width: 80%;
-    height: 28vh;
+    height: 25vh;
   }
   .block2 {
     width: 80%;
   }
   .aboutcont{
     width: 100%;
-    height: 28vh;
+    height: 25vh;
   }
   .contactcont{
     margin-top: 20px;
     width: 100%;
-    height: 28vh;
+    height: 25vh;
   }
 }
 @media screen and (max-width: 616px){
