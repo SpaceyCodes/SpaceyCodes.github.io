@@ -268,15 +268,25 @@ h3 {
   align-items: center;
 }
 .workcont {
-  background-color: #6960EC;
   position: relative;
-  border: black 2px solid;
   width: 50%;
   height: 90vh;
   margin: 10px;
   border-radius: 30px;
 }
+.workhover {
+  background-color: #6960EC;
+  border: black 2px solid;
+  border-radius: 30px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.workcont :hover {
+  opacity: 0.5;
+}
 .workcont .block1{
+  pointer-events: none;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -290,12 +300,22 @@ h3 {
 }
 .aboutcont{
   position: relative;
-  background-color: #41A317;
   height: 45vh;
+  border-radius: 40px;
+}
+.abouthover {
+  position: relative;
+  background-color: #41A317;
+  width: 100%;
+  height: 100%;
   border: black 2px solid;
   border-radius: 40px;
 }
+.aboutcont :hover {
+  opacity: 0.5;
+}
 .aboutcontent{
+  pointer-events: none;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -303,24 +323,36 @@ h3 {
 }
 .contactcont{
   position: relative;
-  background-color: #FF7F50;
   height: calc(45vh - 10px);
   margin-top: 10px;
-  border: black 2px solid;
   border-radius: 40px;
 }
+.contacthover {
+  position: relative;
+  background-color: #FF7F50;
+  border: black 2px solid;
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+}
 .contactcontent {
+  pointer-events: none;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.contactcont :hover {
+  opacity: 50%;
+}
 .container1 h4{
+  pointer-events: none;
   font-size: 30px;
   color: #000;
   border-bottom: #000 2px solid;
 }
 .container1 h5{
+  pointer-events: none;
   font-size: 20px;
   color: #000;
   border-bottom: #000 2px solid;
